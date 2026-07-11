@@ -336,7 +336,7 @@ function deleteContact(id) {
 
             localStorage.setItem("lstContacts", JSON.stringify(contacts));
 
-            displayContacts();
+            bindContacts();
 
             Swal.fire({
                 icon: "success",
